@@ -1,0 +1,19 @@
+{
+  "name": "topmovies",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozorio-silva-neto/landing-page-topmovies.git"
+  },
+  "author": "Top movies\u001b[D\u001b[D\u001b[D\u001b[D\u001b[M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozorio-silva-neto/landing-page-topmovies/issues"
+  },
+  "homepage": "https://github.com/ozorio-silva-neto/landing-page-topmovies#readme"
+}
