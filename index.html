@@ -1,0 +1,391 @@
+<!doctype html>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TOP Movies</title>
+    <meta name="description" content="TOP Movies">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <base href="/">
+
+    <!-- FONT -->
+    <link href="//fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600" rel="stylesheet" type="text/css">
+    <link rel="icon" href="assets/img/favicon.png">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/facebook.css">
+    <link rel="stylesheet" href="assets/css/hackslider.css">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K2PPSG5');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body ng-app="vsp" ng-class="{'body-register' : registerWrapper}">
+
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+
+<div ui-view="header">
+    <header class="navbar navbar-inverse navbar-fixed-top personal">
+
+        <div class="container-fluid content-wrapper">
+            <div class="navbar-header">
+                <a ui-sref="main" class="navbar-brand main_logo" href="#/">
+                    <img src="assets/img/logo.png">
+                </a>
+            </div>
+            <ul class="list-inline pull-right login-header-btn icones"
+                ng-if="('main' | isState) || ('view' | isState) || ('terms' | isState)">
+
+                <li>
+                    <a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item login">
+                    <a ui-sref="login" href="webapp/#/login"><img class="bottom" src="/assets/img/loginH.png"></a>
+                    <!--                    <a ui-sref="login" href="webapp/#/login"><img class="top" src="/assets/img/login.png"></a>-->
+                </li>
+            </ul>
+        </div>
+    </header>
+
+</div>
+
+<div ui-view="navbar"></div>
+<!---->
+<div ui-view="content">
+    <vsp-intro>
+
+        <!-- Page Content -->
+        <!-- CAROUSEL -->
+        <div id="Carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="assets/img/BANNERS_TOPMOVIES_LOGIN5-AMIGOS.jpg" alt="banner amigos alice">
+
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/banner2.jpg" alt="banner musical">
+
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/BANNERS_TOPMOVIES_LOGIN5-KIDS.jpg" alt="banner kids muppets">
+
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/banner3.jpg" alt="banner thor">
+
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/BANNERS_TOPMOVIES_LOGIN5-FAMILIA.jpg" alt="banner familia gigantes de aço">
+
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/banner5.jpg" alt="banner anthropoid">
+
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/banner6.jpg" alt="banner boxbrazil">
+
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#Carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#Carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+
+    </vsp-intro>
+    <vsp-intro-tabs plan-list="planList">
+        <!-- CHANNELS -->
+        <div class="barra_composition">
+            <!-- <div class="play"><a ui-sref="login" href="#/login"> <img src="../../../../assets/img/play.png"> </a> </div> -->
+            <div class="container">
+                <!-- Marketing Logos Section -->
+                <div class="row" id="composition-main">
+                    <div id="topmovies" class="col-lg-6 mb-6">
+                        <h1>CHEGOU TOP MOVIES!</h1>
+                        <h4>A plataforma de Vídeos On-Demand da Sumicity.</h4><br>
+                        <p>Com ela você tem acesso 24 horas por dia a conteúdos dos maiores estúdios de Hollywood,
+                            sucessos de bilheteria, desfiles de moda, shows nacionais e internacionais, além de um
+                            catálogo voltado somente para a garotada!</p> <br>
+                        <a href="webapp/#/login">
+                            <div class="btn"><h5>Acesse Agora!</h5></div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-6 mb-6">
+                        <img src="assets/img/comp_atracoes.png"><br>
+
+                    </div>
+
+                    <!-- /.row -->
+                </div>
+                <!-- /.barra_canais -->
+
+            </div>
+        </div>
+
+        <div id="play-go">
+
+            <div class="row inner">
+
+                <div class="col-lg-6 mb-6 c-play">
+
+                    <img src="assets/img/container-play2.png">
+                    <p>Catálogos SVOD de filmes e obras seriadas com mais de 2000 títulos para todos os públicos,
+                        incluindo catálogo infantil e video musical.</p>
+
+                </div>
+
+                <div class="col-lg-6 mb-6 c-go">
+
+                    <img src="assets/img/container-play.png">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="apresent_capas">
+            <div class="container">
+
+                <div class="row video_canais">
+
+                    <div class="col-lg-6 col-sm-6 ">
+                        <div>
+                            <div>
+                                <h2>Top Movies, a plataforma feita pra você e toda sua família!</h2><br>
+                                <p class="capa-topmovies">Nosso catálogo é composto por conteúdos direcionados a toda a
+                                    família! Séries e Filmes dos melhores estúdios de Hollywood, Moda, Shows com os
+                                    maiores nomes da música nacional e internacional além de um catálogo direcinado ao
+                                    público infantil.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6 ">
+                        <!-- <img src="../../../../assets/img/capas.png" alt="capas Top Movie"> -->
+                        <div id="Carousel_capa" class="carousel slide carousel-fade" data-ride="carousel"
+                             data-interval="4000">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <!-- <li data-target="#Carousel" data-slide-to="0" class=""></li>
+                                <li data-target="#Carousel" data-slide-to="1" class="active"></li>
+                         -->
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div id="capas" class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/img/banner_capas.png" alt="thor">
+
+                                </div>
+
+
+                                <div class="item">
+                                    <img src="assets/img/banner_capas3.png" alt="principe da pérsia">
+
+                                </div>
+
+                                <div class="item">
+                                    <img src="assets/img/banner_capas2.png" alt="capitão américa">
+
+                                </div>
+
+                                <div class="item">
+                                    <img src="assets/img/banner_capas4.png" alt="tomorrowland">
+
+                                </div>
+
+
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#Carousel_capa" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#Carousel_capa" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.apresent_canais -->
+
+        <!-- PLANS -->
+        <div class="barra_comandos">
+            <div class="comandos row">
+
+                <!-- ////////////////////////////////////////////////////////////////////////// BTN ABAS ///////////////////////////////////////////////////////////////////////////////-->
+
+                <div class="panel-heading col-lg-12 mb-12">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#dispositivos" style="color: #fff;"
+                           aria-expanded="false">DISPOSITIVOS</a>
+                    </h4>
+                </div>
+
+
+            </div>
+
+            <!-- ////////////////////////////////////////////////////////////////////////// ABA DISPOSITIVOS///////////////////////////////////////////////////////////////////////////////-->
+
+            <div class="panel-group" id="accordion">
+
+                <div class="panel panel-default">
+                    <div id="dispositivos" class="panel-collapse collapse ">
+                        <div class="panel-body">
+                            <div class="row" style="max-width:70%; min-width: 290px; margin: auto;">
+
+                                <div class="panel-heading col-lg-4 mb-4">
+                                    <h4 class="panel-title text-center">
+                                        <div class="thumbnail">
+                                            <img src="assets/img/icon_tv.png" class="img-responsive d-none d-md-block">
+                                        </div>
+                                        SMART TV'S
+                                    </h4>
+                                </div>
+                                <div class="panel-heading col-lg-4 mb-4">
+                                    <h4 class="panel-title text-center">
+                                        <div class="thumbnail">
+                                            <img src="assets/img/icon_note.png"
+                                                 class="img-responsive d-none d-md-block" id="note"></div>
+                                        COMPUTADORES
+                                    </h4>
+                                </div>
+                                <div class="panel-heading col-lg-4 mb-4">
+                                    <h4 class="panel-title text-center">
+                                        <div class="thumbnail">
+                                            <img src="assets/img/icon_mobile.png"
+                                                 class="img-responsive d-none d-md-block"></div>
+                                        MOBILE
+                                    </h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ////////////////////////////////////////////////////////////////////////// ABA EXPERIMENTE///////////////////////////////////////////////////////////////////////////////-->
+
+            </div>
+        </div>
+    </vsp-intro-tabs>
+</div>
+
+<div ui-view="footer">
+    <div class="barra_links">
+        <div class="row links">
+            <div class="col-lg-4 mb-4 ">
+                <p>LINKS</p>
+                <ul>
+                    <li><a href="https://www.sumicity.com.br/atendimento#contato" target="_blank">Centro de Ajuda</a></li>
+                    <li ng-hide="toState.logged==true"><a data-toggle="collapse" data-parent="#accordion" href="#dispositivos">Formas de Assistir</a></li>
+                    <li><a ui-sref="login" href="#/login">Conta</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 mb-4 institucional">
+                <p>INSTITUCIONAL</p>
+
+                <ul>
+                    <li><a href="https://www.sumicity.com.br/institucional/sobre-a-sumicity" target="_blank">Sumicity</a></li>
+                    <li><a href="https://www.sumicity.com.br/atendimento#contato" target="_blank">Atendimento</a></li>
+                    <li><a href="webapp/#/privacy" target="_blank">Política de Privacidade</a></li>
+                </ul>
+                <br>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <p>CONTATOS</p>
+
+                <ul style="font-size:9px !important;">
+                    <li class="email"><i class="fa fa-envelope-o" aria-hidden="true"></i>contato@sumicity.com.br</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>103 53 - Central 24horas</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Rua Capitão Jorge Soares, nº 277, Centro - Carmo/RJ
+                    </li>
+                </ul>
+
+                <div class="logo_assinatura">
+                    <img src="assets/img/logo_main2.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 rodape_copyright">
+        <div class="container">
+            <p class="m-0 text-center text-white" style="font-size: 10px;">Copyright © TOP Movies 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+</div>
+
+<div id="fb-root" class=" fb_reset">
+    <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/jquery/dist/jquery.js"></script>
+<script src="assets/bootstrap/dist/js/bootstrap.js"></script>
+<script src="assets/js/mobile-detect.js"></script>
+</body>
+</html>

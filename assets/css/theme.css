@@ -1,0 +1,1007 @@
+.personal {
+    background: -moz-linear-gradient(to right, #1c2117, #455b31, #B1CD49) !important;
+    background: -webkit-linear-gradient(to right, #1c2117, #455b31, #B1CD49) !important;
+    background: linear-gradient(to right, #1c2117,#455b31,#b1cd49) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color_p1', endColorstr='$color_p0', GradientType=1);
+    height: 65px;
+
+}
+
+.carousel-item {
+    margin-top: 5px
+}
+
+.navbar-brand {
+    margin: auto
+}
+
+.login {
+    height: 34px;
+    float: right;
+    margin-left: 12px;
+    position: relative
+}
+
+.login img {
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out
+}
+
+.login img.top:hover {
+    opacity: 0
+}
+
+p {
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 16px
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat
+}
+
+.barra_composition {
+    width: 100%;
+    background: white;
+    border-bottom: 2px solid #fff;
+    background-image: url("../img/bg.jpg");
+    background-position: bottom center;
+    background-size: 80%;
+}
+
+.barra_logos_canais h1 {
+    font-size: 2.9em !important
+}
+
+.barra_canais {
+    margin-top: 8%
+}
+
+p {
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 16px
+}
+
+.apresent_capas {
+    background: black;
+    width: 100%;
+    background-image: url("../img/bg-capas.jpg");
+    background-position: top center;
+    background-size: 100%
+}
+
+.chamada_apresent {
+    padding-top: 3%;
+    padding-bottom: 7%;
+    text-align: center
+}
+
+.play {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: -45px;
+    position: relative
+}
+
+.carousel-indicators {
+    bottom: 28px
+}
+
+.barra_comandos {
+    width: 100%;
+    height: 100%;
+    background: #f66624;
+    color: white;
+    padding: 1px;
+    margin-bottom: -8px;
+}
+
+.barra_comandos .panel-default,
+.thumbnail {
+    background: #242424 !important;
+    border: 0px
+}
+
+.barra_comandos2 {
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    background: #242424;
+    background-image: url("../img/barra_comandos.jpg");
+    background-repeat: repeat-x;
+    background-position: top 0% center;
+    color: white
+}
+
+.barra_comandos2 .panel-default,
+.thumbnail {
+    background: #242424 !important;
+    border: 0px
+}
+
+.barra_comandos .panel-title a {
+    color: #fff !important
+}
+
+.barra_comandos .panel-title a:hover {
+    color: #17191a !important
+}
+
+.comandos {
+    max-width: 70%;
+    margin: auto;
+    color: white;
+    position: relative;
+    top: 2px
+}
+
+.comandos .col-lg-4 .mb-4 {
+    padding-right: 0px !important;
+    padding-left: 0px !important
+}
+
+.comandos .btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: none !important
+}
+
+.comandos .btn-primary:hover {
+    background-color: #171717;
+    border-color: transparent;
+    cursor: pointer
+}
+
+.comandos .btn.focus,
+.btn:focus {
+    box-shadow: none !important
+}
+
+.comandos .btn-primary {
+    border-color: none !important;
+    background-color: transparent;
+    border-color: transparent
+}
+
+.comandos .btn {
+    padding: 0.9rem 2.5rem;
+    border-radius: 0 !important;
+    float: right;
+    width: 100%
+}
+
+.comandos .btn a {
+    color: #fff
+}
+
+.comandos a:hover {
+    text-decoration: none
+}
+
+.comandos .mb-4,
+.my-4 {
+    margin-bottom: 0 !important
+}
+
+.btn_dispositivos {
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 0 !important
+}
+
+#dispositivos img {
+    vertical-align: center
+}
+
+#dispositivos .card {
+    border: none;
+    padding-bottom: 3%;
+    background: #000;
+    margin-top: 20px
+}
+
+#barra-img-comandos {
+    width: 100%
+}
+
+.barra_comandos .comandos .row {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.barra_comandos .comandos .btn_planos {
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 0 !important
+}
+
+.barra_comandos .comandos .btn_planos:hover {
+    background-color: #171717;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+}
+
+.btn_experimente {
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 0 !important
+}
+
+.barra_comandos .comandos .btn_experimente {
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 0 !important
+}
+
+.barra_comandos .comandos .btn_experimente:hover {
+    background-color: #171717;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none
+}
+
+.video_canais p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.video_canais img {
+    width: 100%;
+    margin-bottom: 3%
+}
+
+.barra_links {
+    width: 100%;
+    padding: 3% 3% 0;
+    background: #0e1010;
+    color: #fff;
+    position: relative;
+    bottom: 14px;
+    border-top: 3px solid #fd3d02;
+}
+
+.barra_links .row {
+    margin: 0 !important;
+    padding-bottom: 35px;
+}
+
+.barra_links ul {
+    list-style-type: none;
+    padding-left: 0
+}
+
+.canais ul {
+    line-height: 3
+}
+
+.barra_links ul li {
+    color: #9bcf34;
+}
+
+.barra_links ul li i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.barra_links ul li a {
+    text-decoration: none;
+    color: #8b8c8d;
+    list-style-type: none;
+    padding: 1%
+}
+
+.barra_links ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+}
+
+.canais {
+    position: relative
+}
+
+.canais img {
+    padding-left: 10px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out
+}
+
+.canais img.top:hover {
+    opacity: 0
+}
+
+.institucional ul li {
+    color: #8b8c8d;
+}
+
+.logo_assinatura {
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.links {
+    padding-left: 8%;
+    padding-right: 8%
+}
+
+.face {
+    position: relative;
+    margin-top: 50%;
+    float: left;
+    clear: right;
+    width: 50px;
+    margin-left: 20px
+}
+
+.face img {
+    height: 22px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out
+}
+
+.face img.top:hover {
+    opacity: 0
+}
+
+.insta {
+    position: relative;
+    margin-top: 50%;
+    float: left;
+    clear: right;
+    width: 50px
+}
+
+.insta img {
+    height: 22px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out
+}
+
+.insta img.top:hover {
+    opacity: 0
+}
+
+.youtube {
+    position: relative;
+    margin-top: 50%;
+    float: left;
+    clear: right;
+    width: 50px;
+    height: 28px
+}
+
+.youtube img {
+    height: 22px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out
+}
+
+.youtube img.top:hover {
+    opacity: 0
+}
+
+.social {
+    width: 180px;
+    margin: auto;
+    margin-top: 10%
+}
+
+.rodape_copyright {
+    /*padding-top:1rem !important;padding-bottom:1rem !important;*/
+    background: #050505;
+    color: #fff
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.barra_links .row {
+    margin: 0 !important
+}
+
+.main_logo img {
+    position: relative;
+    left: 5px;
+}
+
+.card {
+    background-color: transparent !important;
+    background-clip: transparent !important
+}
+
+#bbplayCarousel .carousel-item {
+    height: 70vh !important
+}
+
+.box-slide {
+    padding: 8px;
+    border: 3px #fff solid;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+#bnr1 {
+    background-image: url("../img/banner1.jpg")
+}
+
+#bnr2 {
+    background-image: url("../img/banner2.jpg")
+}
+
+#bnr3 {
+    background-image: url("../img/banner3.jpg")
+}
+
+#bnr4 {
+    background-image: url("../img/banner4.jpg")
+}
+
+#bnr-assistir-1 {
+    background-image: url("../img/banner_assista1.jpg")
+}
+
+#bnr-assistir-2 {
+    background-image: url("../img/banner_assista2.jpg")
+}
+
+#bnr-assistir-3 {
+    background-image: url("../img/banner_assista3.jpg")
+}
+
+#planos {
+    color: #fff
+}
+
+#planos .card {
+    border: none;
+    padding-bottom: 1%;
+    padding-top: 1%
+}
+
+.panel .panel-default {
+    max-width: 800px !important;
+    background: pink
+}
+
+.card-header {
+    border-bottom: 2px solid #048bdc;
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 1.2
+}
+
+.card-footer {
+    border-top: none !important
+}
+
+.card-footer .btn {
+    background: #048bdc;
+    width: 100%;
+    padding: 15px;
+    border-radius: 0
+}
+
+.card-footer .btn-primary:hover {
+    background: #001438
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: .4rem
+}
+
+.comandos .mb-4,
+.my-4 {
+    text-align: center;
+    padding: 10px
+}
+
+.dispsitivos-row {
+    width: 800px
+}
+
+#experimente h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1a1a1a
+}
+
+#experimente a {
+    width: 100%;
+    border-radius: 0;
+    margin: auto
+}
+
+.barra_comandos img {
+    margin: auto
+}
+
+#composition-main {
+    width: 88%;
+    margin: auto;
+}
+
+#composition-main img {
+    margin: auto
+}
+
+#composition-main h1 {
+    margin-top: 10%!important;
+}
+
+.video_canais .thumbnail {
+    background: none !important;
+    border: 0px !important
+}
+
+.links ul li {
+    font-size: 14px !important
+}
+
+.links p {
+    font-size: 18px !important;
+    font-family: Roboto !important
+}
+
+.login-header-btn {
+    position: relative;
+    right: 5%
+}
+
+.panel-title {
+    font-size: 2.1rem !important
+}
+
+.card-body h1 {
+    font-size: 2.8em !important
+}
+
+#slides_control>div {
+    height: 200px
+}
+
+#slides_control {
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 20px;
+    margin-left: -200px
+}
+
+.channels {
+    position: relative;
+    bottom: 10px;
+    left: 10px
+}
+
+.channels img {
+    height: 40px;
+    z-index: 0
+}
+
+.logged-in .navbar-brand {
+    transform: translateX(-50%);
+    left: 50% !important;
+    top: 18px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 0
+}
+
+#bbplayCarousel a h4 {
+    color: #fff !important
+}
+
+#bbplayCarousel a:hover {
+    text-decoration: none !important
+}
+
+.terms p {
+    font-family: Roboto;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left
+}
+
+.terms li {
+    font-family: Roboto;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left
+}
+
+@media screen and (max-width: 1200px) {
+    .channels img {
+        display: none;
+        height: 40px;
+        z-index: 0
+    }
+    .logged-in .navbar-brand {
+        transform: translateX(-50%);
+        left: 30% !important;
+        top: 18px;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 0
+    }
+}
+
+.subscription-link {
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #272727;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase
+}
+
+.link-color1 {
+    color: #fff;
+    padding-right: 15px;
+    font-size: 11px !important
+}
+
+.link-color2 {
+    color: #0579AA;
+    padding-left: 15px;
+    font-size: 11px !important
+}
+
+.barra-invert {
+    color: #3e3e3e;
+}
+
+.logos-barratopo {
+    position: relative;
+    bottom: 10px
+}
+
+.navbar-inverse {
+    border-color: transparent;
+!important;
+}
+
+.icones {
+    margin-top: 22px;
+}
+
+a {
+    color: #9bcf34 !important;
+}
+
+a:hover {
+    color: #fff !important;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn {
+    background-color: #fc6621;
+    color: #fff;
+    margin-top: 8%;
+}
+
+.btn:hover {
+    background-color: #ff2c00;
+    color: #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.capa-topmovies {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 15px;
+    width: 76%;
+    margin: auto;
+}
+
+#topmovies h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #828282;
+}
+
+#topmovies h4 {
+    font-style: italic;
+    font-family: trebuchet MS;
+    text-align: center;
+    color: #828282;
+    font-weight: lighter;
+}
+
+.container {
+    width: 80%;
+    margin: center!important;
+}
+
+.video_canais h2 {
+    color: #95cd31;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -3px 3px 3px #000000;
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+.panel-heading a {
+    text-decoration: none;
+}
+
+#capas >.item >img {
+    display: block;
+    max-width: 80%!important;
+    height: auto;
+    margin: auto!important;
+}
+
+#play-go {
+    background-color: #2b2b2b;
+    padding: 7em;
+    border-bottom: 2px solid #9dec00;
+    height: 50em;
+    width: 100%;
+    background-image: url("../img/bg_play-go.jpg");
+    background-position: top center;
+    background-size: 100%;
+}
+
+.inner {
+    width: 80%;
+    margin: auto;
+}
+
+#play-go .c-play img {
+    width: 86%;
+    margin: auto!important;
+}
+
+#play-go .c-go img {
+    width: 84%;
+    margin: auto!important;
+}
+
+#play-go p {
+    color: #fff;
+    text-align: center;
+}
+
+#play-go .row {
+    /*width: 80%;*/
+    margin: auto;
+}
+
+#topmovies {
+    text-align: center;
+    padding: 15px;
+    color: #6e6e6e;
+}
+
+#video {
+    margin-top: 5em;
+}
+
+#bbplayCarousel .carousel-inner {
+    background-color: white!important;
+}
+
+#btn-videos {
+    margin-left: 30%;
+}
+
+.videos-sumicity {
+    height: 300px;
+}
+
+.btn-conecte {
+    margin-top: -20px;
+}
+
+#Carousel.carousel {
+    background: white!important;
+}
+
+
+
+@-webkit-keyframes uil-default-anim {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes uil-default-anim {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.uil-default-css > div:nth-of-type(1) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -.5s;
+    animation-delay: -.5s
+}
+
+.uil-default-css > div:nth-of-type(2) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -.4166666666666667s;
+    animation-delay: -.4166666666666667s
+}
+
+.uil-default-css > div:nth-of-type(3) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -.33333333333333337s;
+    animation-delay: -.33333333333333337s
+}
+
+.uil-default-css > div:nth-of-type(4) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -.25s;
+    animation-delay: -.25s
+}
+
+.uil-default-css > div:nth-of-type(5) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -.16666666666666669s;
+    animation-delay: -.16666666666666669s
+}
+
+.uil-default-css > div:nth-of-type(6) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -83.33333333333331ms;
+    animation-delay: -83.33333333333331ms
+}
+
+.uil-default-css > div:nth-of-type(7) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+
+.uil-default-css > div:nth-of-type(8) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: 83.33333333333337ms;
+    animation-delay: 83.33333333333337ms
+}
+
+.uil-default-css > div:nth-of-type(9) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: .16666666666666663s;
+    animation-delay: .16666666666666663s
+}
+
+.uil-default-css > div:nth-of-type(10) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: .25s;
+    animation-delay: .25s
+}
+
+.uil-default-css > div:nth-of-type(11) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: .33333333333333337s;
+    animation-delay: .33333333333333337s
+}
+
+.uil-default-css > div:nth-of-type(12) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: .41666666666666663s;
+    animation-delay: .41666666666666663s
+}
+
+.uil-default-css {
+    position: relative;
+    background: 0 0;
+    width: 200px;
+    height: 200px
+}
+
+.icones a {
+    color: #fff !important;
+}
+
+.login a {
+    color: #fff !important;
+}
+
+
+.navbar > .container-fluid .navbar-brand {
+    transform: translateX(-50%);
+    left: 50% !important;
+    top: 5px !important;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 0;
+}
